@@ -262,7 +262,7 @@ function atcf_shortcode_submit_field_tags( $atts, $campaign ) {
 	</p>
 <?php
 }
-add_action( 'atcf_shortcode_submit_fields', 'atcf_shortcode_submit_field_tags', 45, 2 );
+add_action( 'atcf_shortcode_submit_fields', 'atcf_shortcode_submit_field_tags', 5, 2 );
 
 /**
  * Campaign Description
@@ -342,7 +342,7 @@ function atcf_shortcode_submit_field_excerpt( $atts, $campaign ) {
 	</p>
 <?php
 }
-add_action( 'atcf_shortcode_submit_fields', 'atcf_shortcode_submit_field_excerpt', 60, 2 );
+add_action( 'atcf_shortcode_submit_fields', 'atcf_shortcode_submit_field_excerpt', 15, 2 );
 
 /**
  * Campaign Images
